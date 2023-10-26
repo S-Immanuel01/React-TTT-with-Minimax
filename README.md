@@ -20,4 +20,4 @@ Feeling like i was going too easy on X, I decided to play with the aim of winnin
 
 ## Conclusion
 I really enjoyed making this and playing with an Algorithm, those there are some bugs but like the final game not showing due to the useState not rendering them... But for most games it works fine,
-if you want to get beaten by an AI player feel free to download the repo and run it with `Npm start`
+if you want to get beaten by an AI player feel free to download the repo, install all dependencies using `Npm install` or `Npm i` and run it with `Npm start`
