@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  place-content:center;
+  background-color:white;
+}
+
+#root {
+  position: absolute;
+  top: 25%;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border: 2px rgb(0, 174, 255) solid;
+  background-color: white;
+}
+.board-row-2 .square,
+.board-row-1 .square{
+  border-bottom: 0px;
+}
+.square:nth-last-child(2),
+.square:nth-last-child(1) {
+  border-left: 0px;
+}
+
+span {
+  color: rgb(0, 102, 255);
+  font-weight: 300;
+  font-size: 90px;
+}
+
+.board-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 1rem gray;
+}
+
+.board-col p{
+  background-color: lightblue;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: rgb(0, 102, 255);
+}
+
+.board-row-2 .square:hover,
+.board-row-1 .square:hover,
+.board-row .square:hover{
+  /* background-color: blue; */
+  border: 3px rgb(0, 102, 255) solid;
+}
